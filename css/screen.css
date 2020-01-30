@@ -1,0 +1,68 @@
+/* balises génériques */
+
+
+
+/* body */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+/* layout */
+
+.l-main-header {
+
+}
+
+.l-main-nav {
+    background: blue;
+    display: none;
+}
+
+.l-main-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.l-main-nav li {
+    list-style: none;
+}
+
+.l-main-nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.l-main-nav.is-active {
+    display: block;
+}
+
+/* mobile first */
+
+.l-main-hamburger {
+    color: purple;
+    display: inline-block;
+    padding: 1.5rem;
+}
+
+/* media query */
+
+@media screen and (min-width: 800px) {
+
+    .l-main-nav{
+        display: block;
+    }
+    
+    .l-main-nav li{
+        display: inline-block;
+    }
+    
+    .l-main-hamburger {
+        display: none;
+    }
+}
+
